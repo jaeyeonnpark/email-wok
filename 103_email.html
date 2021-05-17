@@ -5,7 +5,7 @@
                 <table width="600" border="0" cellspacing="0" cellpadding="0">
                     <tbody>
                         <tr>
-                            <td style="word-break: keep-all; width: 600px; min-width: 600px; font-size: 0pt; line-height: 0pt; font-weight: normal; margin: 0; padding: 40px 0px;">
+                            <td style="text-align: left; word-break: keep-all; width: 600px; min-width: 600px; font-size: 0pt; line-height: 0pt; font-weight: normal; margin: 0; padding: 40px 0px;">
                                 <!--컨텐츠 시작-->
                                 <!--로고-->
                                 <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
@@ -38,7 +38,7 @@
                                                 <table>
                                                     <tr>
                                                         <td>
-                                                            <div align="left" style="color: #212124; font-family: 'Noto Sans KR', 'Malgun Gothic','Roboto', sans-serif; font-size: 15px; line-height: 24px;">
+                                                            <div align="left" style="color: #212124; font-family: 'Noto Sans KR', 'Malgun Gothic','Roboto', sans-serif; font-size: 15px; line-height: 24px; text-align: left;">
                                                                 <span style="font-weight: 700">안녕하세요. &lt;$$$CORP_NAME$$$&gt;입니다.</span><br><br>
                                                                 &lt;$$$MEMBER_NAME$$$&gt;고객님의 &lt;$$$SUPPORT_CAPTION$$$&gt;(http://&lt;$$$SUPPORT_URL$$$&gt;/) 로그인 암호 변경 메일입니다. <br>아래의 [암호 변경 링크]를 클릭하시면 새로운 암호로 변경 가능 합니다. 암호 변경 링크는 최초 발행 후 3시간 동안 사용 가능합니다.
                                                             </div>
@@ -46,36 +46,29 @@
                                                     </tr>
                                                 </table>
                                                 <!--회원 정보-->
-                                                <table style="padding:20px 0 0 0">
+                                                <table width="100%" style="padding:20px 0 0 0">
                                                     <tr>
                                                         <td>
                                                             <table align="left" style="color: #212124; font-family: 'Noto Sans KR','Malgun Gothic','Roboto', sans-serif; font-size: 13px; line-height: 24px;" width="100%" cellspacing="0" cellpadding="0" border="0">
-                                                                <colgroup>
-                                                                    <col width="15%">
-                                                                    <col width="35%">
-                                                                    <col width="15%">
-                                                                    <col width="35%">
-                                                                </colgroup>
                                                                 <tbody>
                                                                     <tr>
-                                                                        <td style="padding:10px 15px; color:#212124; font-weight:bold; text-align:left; background-color:#D9DEE2;">이름</td>
-                                                                        <td style="padding:10px 15px; color:#777777; font-weight:normal; text-align:left; line-height:1.6; background-color:#F9F9F9;">&lt;$$$MEMBER_NAME$$$&gt;</td>
-                                                                        <td style="padding:10px 15px; color:#212124; font-weight:bold; text-align:left; line-height:1.6; background-color:#D9DEE2;">아이디</td>
-                                                                        <td style="padding:10px 15px; color:#777777; font-weight:normal; text-align:left; line-height:1.6; background-color:#F9F9F9">&lt;$$$MEMBER_ID$$$&gt;</td>
+                                                                        <td width="15%" style="padding:10px 15px; color:#212124; font-weight:bold; text-align:left; background-color:#D9DEE2;">이름</td>
+                                                                        <td width="35%" style="padding:10px 15px; color:#777777; font-weight:normal; text-align:left; line-height:1.6; background-color:#F9F9F9;">&lt;$$$MEMBER_NAME$$$&gt;</td>
+                                                                        <td width="15%" style="padding:10px 15px; color:#212124; font-weight:bold; text-align:left; line-height:1.6; background-color:#D9DEE2;">아이디</td>
+                                                                        <td width="35%" style="padding:10px 15px; color:#777777; font-weight:normal; text-align:left; line-height:1.6; background-color:#F9F9F9">&lt;$$$MEMBER_ID$$$&gt;</td>
                                                                     </tr>
-                                                                    
                                                                 </tbody>
                                                             </table>
-                                                            
+                                                        </td>
+                                                    </tr>
+                                                    
+                                                    <tr>
+                                                        <td>
                                                             <table lign="left" style="color: #212124; font-family: 'Noto Sans KR','Malgun Gothic','Roboto', sans-serif; font-size: 13px; line-height: 24px; padding:10px 0 0 0" width="100%" cellspacing="0" cellpadding="0" border="0">
-                                                               <colgroup>
-                                                                    <col width="30%">
-                                                                    <col width="auto">
-                                                                  
-                                                                </colgroup>
+                                                              
                                                                 <tbody>
                                                                     <tr>
-                                                                        <td style="padding:10px 15px; color:#212124; font-weight:bold; text-align:left; line-height:1.6; background-color:#D9DEE2;">암호 변경 링크</td>
+                                                                        <td width="30%" style="padding:10px 15px; color:#212124; font-weight:bold; text-align:left; line-height:1.6; background-color:#D9DEE2;">암호 변경 링크</td>
                                                                         <td colspan="3" style="padding:10px 15px; color:#777777; font-weight:normal; text-align:left; line-height:1.6; background-color:#F9F9F9;"><a style="color:#1E8FFA; font-size:13px; font-weight:bold; text-decoration: none;" href="http://<$$$SUPPORT_URL$$$>/mempwdchg.aspx?pk=<$$$PASSWORD_KEY$$$>" target="_blank">[이 링크를 클릭하시면 암호 변경 가능합니다.]</a></td>
                                                                        
                                                                     </tr>
